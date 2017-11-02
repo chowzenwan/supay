@@ -51,12 +51,14 @@ image_yscale = 1.2;
           <argument>
             <kind>1</kind>
             <string>//the end begins
-if (scr_color_win) show_message("fin");
-/*
+if (scr_color_win) //obj_window.visible = true;
+
 {
-    show_message(global.the_end);
-    show_message("fin");
-    global.the_end = 0;
+    obj_window.visible = true;
+    obj_window.y = 224;
+    //show_message(global.the_end);
+    //show_message("fin");
+    //global.the_end = 0;
 
 }
 </string>
