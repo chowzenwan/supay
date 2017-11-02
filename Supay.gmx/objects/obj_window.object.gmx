@@ -30,6 +30,8 @@ instance_deactivate_object(obj_cloudback);
 instance_deactivate_object(obj_sombra);
 instance_deactivate_object(obj_cloudfront);
 instance_deactivate_object(obj_supay);
+part_system_destroy(obj_rain.partRain_sys);
+instance_deactivate_object(obj_rain);
 room_goto(rm_boss);
 
 
