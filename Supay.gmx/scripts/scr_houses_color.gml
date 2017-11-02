@@ -28,7 +28,12 @@ if (sprite_get_name(house4.sprite_index) != 'spr_house') && (house4.fullhouse ==
 if (sprite_get_name(house5.sprite_index) != 'spr_house') && (house5.fullhouse == false) global.the_end = global.the_end + 1;    
 */
 
+
+
+//show_message(sprite_get_name(house.sprite_index));
+
 if (sprite_get_name(house.sprite_index) == 'spr_houseredanimation' || sprite_get_name(house.sprite_index) == 'spr_houseblueanimation') the_end = the_end + 1;
+/*
 if (sprite_get_name(house2.sprite_index) == 'spr_houseredanimation' || sprite_get_name(house2.sprite_index) == 'spr_houseblueanimation') the_end = the_end + 1;
 if (sprite_get_name(house3.sprite_index) == 'spr_houseredanimation' || sprite_get_name(house3.sprite_index) == 'spr_houseblueanimation') the_end = the_end + 1;
 if (sprite_get_name(house4.sprite_index) == 'spr_houseredanimation' || sprite_get_name(house4.sprite_index) == 'spr_houseblueanimation') the_end = the_end + 1;
@@ -37,6 +42,6 @@ if (sprite_get_name(house6.sprite_index) == 'spr_houseredanimation' || sprite_ge
 if (sprite_get_name(house7.sprite_index) == 'spr_houseredanimation' || sprite_get_name(house7.sprite_index) == 'spr_houseblueanimation') the_end = the_end + 1;
 if (sprite_get_name(house8.sprite_index) == 'spr_houseredanimation' || sprite_get_name(house8.sprite_index) == 'spr_houseblueanimation') the_end = the_end + 1;
 if (sprite_get_name(house9.sprite_index) == 'spr_houseredanimation' || sprite_get_name(house9.sprite_index) == 'spr_houseblueanimation') the_end = the_end + 1;
-
-//show_message(the_end);
-if (the_end == 5) instance_create(512, 416, obj_the_end);
+*/
+show_message(the_end);
+if (the_end == 1) instance_create(512, 416, obj_the_end);

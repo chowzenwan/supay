@@ -50,7 +50,15 @@ image_yscale = 1.2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (scr_color_win) show_message("fin");
+            <string>//the end begins
+if (scr_color_win) show_message("fin");
+/*
+{
+    show_message(global.the_end);
+    show_message("fin");
+    global.the_end = 0;
+
+}
 </string>
           </argument>
         </arguments>
