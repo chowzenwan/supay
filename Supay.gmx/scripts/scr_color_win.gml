@@ -41,4 +41,5 @@ if (sprite_get_name(house8.sprite_index) == 'spr_houseblueanimation') blue = blu
 if (sprite_get_name(house9.sprite_index) == 'spr_houseredanimation') red = red + 1;
 if (sprite_get_name(house9.sprite_index) == 'spr_houseblueanimation') blue = blue + 1;
 
-if (red > blue) room_goto(rm_redwin) else room_goto(rm_bluewin);
+//if (red > blue) room_goto(rm_redwin) else room_goto(rm_bluewin);
+return true;

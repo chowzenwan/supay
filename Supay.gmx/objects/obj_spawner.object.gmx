@@ -51,7 +51,7 @@ depth = -1000
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Spawn random enemies
+            <string>/*///Spawn random enemies
 randomize();
 var wave = random_range(5,700);
 //Creating the enemies
