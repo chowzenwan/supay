@@ -10,6 +10,18 @@
     <sound>sound\snd_center</sound>
   </sounds>
   <sprites name="sprites">
+    <sprites name="door">
+      <sprite>sprites\spr_doorclose</sprite>
+      <sprite>sprites\spr_dooropen</sprite>
+    </sprites>
+    <sprites name="boss">
+      <sprite>sprites\spr_bsupayterrain</sprite>
+      <sprites name="bigsupay">
+        <sprite>sprites\spr_bsupay_idle</sprite>
+        <sprite>sprites\spr_bsupay_idle2</sprite>
+        <sprite>sprites\spr_bsupay_wink</sprite>
+      </sprites>
+    </sprites>
     <sprites name="Hearts">
       <sprite>sprites\spr_hearts_blue</sprite>
       <sprite>sprites\spr_hearts_red</sprite>
@@ -155,20 +167,16 @@
     <sprite>sprites\sprite83</sprite>
     <sprite>sprites\spr_nothing</sprite>
     <sprite>sprites\spr_window_light</sprite>
-    <sprites name="boss">
-      <sprite>sprites\sprite93</sprite>
-      <sprite>sprites\sprite94</sprite>
-    </sprites>
+    <sprite>sprites\spr_gameover</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
     <background>background\background1</background>
-    <background>background\background2</background>
     <background>background\background3</background>
     <background>background\background4</background>
     <background>background\cloud_shadow</background>
     <background>background\bossroom</background>
     <background>background\bossroom2</background>
+    <background>background\game_over</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -326,6 +334,8 @@
     <object>objects\obj_thunder</object>
     <object>objects\obj_rain</object>
     <object>objects\obj_window</object>
+    <object>objects\obj_gameover</object>
+    <object>objects\obj_door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
