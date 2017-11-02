@@ -155,6 +155,10 @@
     <sprite>sprites\sprite83</sprite>
     <sprite>sprites\spr_nothing</sprite>
     <sprite>sprites\spr_window_light</sprite>
+    <sprites name="boss">
+      <sprite>sprites\sprite93</sprite>
+      <sprite>sprites\sprite94</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -163,6 +167,8 @@
     <background>background\background3</background>
     <background>background\background4</background>
     <background>background\cloud_shadow</background>
+    <background>background\bossroom</background>
+    <background>background\bossroom2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -187,6 +193,10 @@
     <font>fonts\Early_GameBoy</font>
   </fonts>
   <objects name="objects">
+    <objects name="BossRoom">
+      <object>objects\obj_boss</object>
+      <object>objects\obj_bossterrain</object>
+    </objects>
     <objects name="hearts">
       <object>objects\obj_heartsred</object>
       <object>objects\obj_heartsblue</object>
@@ -329,6 +339,7 @@
     <room>rooms\rm_lf</room>
     <room>rooms\rm_pause</room>
     <room>rooms\rm_gameover</room>
+    <room>rooms\rm_boss</room>
     <rooms name="end">
       <room>rooms\rm_bluewin</room>
       <room>rooms\rm_redwin</room>
