@@ -155,8 +155,6 @@
     <sprite>sprites\sprite83</sprite>
     <sprite>sprites\spr_nothing</sprite>
     <sprite>sprites\spr_window_light</sprite>
-    <sprite>sprites\spr_window_light_small</sprite>
-    <sprite>sprites\spr_windows</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
