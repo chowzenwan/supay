@@ -164,10 +164,8 @@
       <sprite>sprites\sprite80</sprite>
       <sprite>sprites\sprite82</sprite>
     </sprites>
-    <sprite>sprites\sprite83</sprite>
-    <sprite>sprites\spr_nothing</sprite>
-    <sprite>sprites\spr_window_light</sprite>
     <sprite>sprites\spr_gameover</sprite>
+    <sprite>sprites\spr_nothing</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -333,7 +331,6 @@
     <object>objects\obj_restart</object>
     <object>objects\obj_thunder</object>
     <object>objects\obj_rain</object>
-    <object>objects\obj_window</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_door</object>
   </objects>

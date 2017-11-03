@@ -55,7 +55,7 @@ depth = -1000
 randomize();
 var wave = random_range(5,700);
 //Creating the enemies
-instance_create(x,y,choose(obj_enemy01, obj_enemy02, obj_enemy01));
+//instance_create(x,y,choose(obj_enemy01, obj_enemy02, obj_enemy01));
 alarm[0] = wave;
 obj_door.sprite_index = spr_dooropen
 </string>

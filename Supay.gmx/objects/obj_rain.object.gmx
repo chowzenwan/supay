@@ -54,7 +54,7 @@ part_type_gravity(partPuddle,0,270);
 part_type_life(partPuddle,50,60);
 */
 //Set Sequence
-part_type_death(partRain,1,partRain);
+part_type_death(partRain,1,0);
 
 //Create Emitter
 partRain_emit = part_emitter_create(partRain_sys);
@@ -62,9 +62,15 @@ part_emitter_region(partRain_sys,partRain_emit,view_xview[0]-300,view_wview[0]+1
 part_emitter_stream(partRain_sys,partRain_emit,partRain,30);
 
 //Advance System
-repeat (room_speed * 3){
+//show_message(string(room_speed * 3));
+repeat (room_speed * 2.5){
     part_system_update(partRain_sys);
 }
+alarm[0] = 10000;
+//show_message('mensaje de fin de lluvia');
+//part_system_destroy(obj_rain.partRain_sys);
+
+
 </string>
           </argument>
         </arguments>
