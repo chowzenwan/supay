@@ -50,7 +50,8 @@ alarm[0] = 250;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[1]= 50000;
+            <string>///alarma uno
+alarm[1]= 50000;
 </string>
           </argument>
         </arguments>
