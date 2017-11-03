@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.5;
-alarm[0] = 250;
+alarm[0] = 25;
 //show_message('repeat');
 </string>
           </argument>
@@ -76,9 +76,9 @@ alarm[1]= 50000;
             <kind>1</kind>
             <string>///Spawn random attacks
 randomize();
-var wave = random_range(5,5000);
+var wave = random_range(5,500);
 
-instance_create(x,y,choose(scr_rain()));
+//instance_create(x,y,choose(scr_rain()));
 /*
 if (instance_number(obj_rain) == 0)
 {

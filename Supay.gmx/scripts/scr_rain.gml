@@ -1,5 +1,5 @@
 //src_rain(starts and stops rain)
-
+/*
 with(obj_supay){
     if (instance_number(obj_rain) == 0)
     {

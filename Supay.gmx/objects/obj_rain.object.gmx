@@ -66,7 +66,7 @@ part_emitter_stream(partRain_sys,partRain_emit,partRain,30);
 repeat (room_speed * 2.5){
     part_system_update(partRain_sys);
 }
-alarm[0] = 10000;
+//alarm[0] = 10000;
 //show_message('mensaje de fin de lluvia');
 //part_system_destroy(obj_rain.partRain_sys);
 
