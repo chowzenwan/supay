@@ -87,7 +87,7 @@ if (instance_number(obj_rain) == 0)
     show_message('mata lluevia');
     with(obj_rain)
     {
-         part_system_destroy(partRain_sys);
+        part_system_destroy(partRain_sys);
         instance_destroy();
     }
     alarm[1] = 50000;

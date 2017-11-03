@@ -58,13 +58,16 @@ room_goto(rm_boss);
           <argument>
             <kind>1</kind>
             <string>///change to final room D:
-instance_deactivate_object(obj_cloudback);
-instance_deactivate_object(obj_sombra);
-instance_deactivate_object(obj_cloudfront);
-instance_deactivate_object(obj_supay);
-part_system_destroy(obj_rain.partRain_sys);
-instance_deactivate_object(obj_rain);
-room_goto(rm_boss);
+if(global.the_end == 1)
+{
+    instance_deactivate_object(obj_cloudback);
+    instance_deactivate_object(obj_sombra);
+    instance_deactivate_object(obj_cloudfront);
+    instance_deactivate_object(obj_supay);
+    part_system_destroy(obj_rain.partRain_sys);
+    instance_deactivate_object(obj_rain);
+    room_goto(rm_boss);
+}
 
 
 </string>
