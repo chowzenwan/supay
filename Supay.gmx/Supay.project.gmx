@@ -21,6 +21,11 @@
         <sprite>sprites\spr_bsupay_idle2</sprite>
         <sprite>sprites\spr_bsupay_wink</sprite>
       </sprites>
+      <sprites name="attacks">
+        <sprite>sprites\spr_attackred</sprite>
+        <sprite>sprites\spr_attackblue</sprite>
+        <sprite>sprites\spr_attackpurple</sprite>
+      </sprites>
     </sprites>
     <sprites name="Hearts">
       <sprite>sprites\spr_hearts_blue</sprite>
@@ -111,8 +116,6 @@
     <sprites name="Buttons">
       <sprites name="tutorial">
         <sprite>sprites\spr_1t</sprite>
-        <sprite>sprites\spr_2t</sprite>
-        <sprite>sprites\spr_3t</sprite>
       </sprites>
       <sprites name="end">
         <sprite>sprites\spr_bluewin</sprite>
@@ -202,6 +205,11 @@
     <objects name="BossRoom">
       <object>objects\obj_boss</object>
       <object>objects\obj_bossterrain</object>
+      <objects name="attacks">
+        <object>objects\obj_redball</object>
+        <object>objects\obj_blueball</object>
+        <object>objects\obj_purpleball</object>
+      </objects>
     </objects>
     <objects name="hearts">
       <object>objects\obj_heartsred</object>
@@ -352,10 +360,7 @@
       <room>rooms\rm_redwin</room>
     </rooms>
     <rooms name="tutorial">
-      <room>rooms\rm_tuto1</room>
-      <room>rooms\rm_tuto3</room>
-      <room>rooms\rm_tuto2</room>
-      <room>rooms\tm_tuto4</room>
+      <room>rooms\rm_controls</room>
     </rooms>
   </rooms>
   <help>
