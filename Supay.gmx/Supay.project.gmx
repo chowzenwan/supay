@@ -194,6 +194,7 @@
     <script>scripts\scr_reset_house.gml</script>
     <script>scripts\scr_getout.gml</script>
     <script>scripts\scr_game_over.gml</script>
+    <script>scripts\scr_rain.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\Early_GameBoy</font>
