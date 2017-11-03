@@ -32,9 +32,9 @@
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background1" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="0" name="background3" x="0" y="0" htiled="-1" vtiled="-1" hspeed="1" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="-1" name="cloud_shadow" x="0" y="0" htiled="-1" vtiled="-1" hspeed="2" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="-1" name="background4" x="0" y="0" htiled="-1" vtiled="-1" hspeed="-3" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="background3" x="0" y="0" htiled="-1" vtiled="-1" hspeed="1" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="-1" name="cloud_shadow" x="0" y="0" htiled="-1" vtiled="-1" hspeed="2" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="-1" name="background4" x="0" y="0" htiled="-1" vtiled="-1" hspeed="-3" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -53,21 +53,7 @@
   <instances>
     <instance objName="obj_stardropper" x="0" y="0" name="inst_C53017FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dropper" x="32" y="0" name="inst_09B124B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_houseoflove" x="655" y="550" name="inst_7C086BB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tree04" x="287" y="516" name="inst_E69353DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tree03" x="774" y="495" name="inst_DF85E36A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_frog" x="748" y="559" name="inst_883E1AB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_personidle" x="523" y="555" name="inst_A035088C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_personidle" x="595" y="556" name="inst_60EAAF51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_skip" x="512" y="128" name="inst_D3803978" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidplayer" x="277" y="524" name="inst_9CE3DA6D" locked="0" code="" scaleX="5.54838705062866" scaleY="0.09375" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidplayer" x="374" y="571" name="inst_CD961976" locked="0" code="" scaleX="13.65625" scaleY="0.129032254219055" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solid" x="366" y="525" name="inst_BA9D30B3" locked="0" code="" scaleX="5.5625" scaleY="0.0625" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solid" x="275" y="510" name="inst_BB372479" locked="0" code="" scaleX="0.0625" scaleY="1.03125" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solid" x="373" y="560" name="inst_DC684C6C" locked="0" code="" scaleX="0.0625" scaleY="1.03125" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solid" x="813" y="560" name="inst_185476C2" locked="0" code="" scaleX="0.0625" scaleY="1.03125" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solid" x="593" y="574" name="inst_D3B13B24" locked="0" code="" scaleX="13.84375" scaleY="0.121212124824524" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ground1" x="544" y="608" name="inst_60B0DFCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_1t" x="512" y="384" name="inst_FC8B19AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
