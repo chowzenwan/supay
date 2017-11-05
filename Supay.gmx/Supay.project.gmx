@@ -13,7 +13,6 @@
   <sprites name="sprites">
     <sprites name="end">
       <sprite>sprites\spr_end1</sprite>
-      <sprite>sprites\spr_enddd</sprite>
       <sprite>sprites\spr_end2</sprite>
       <sprite>sprites\spr_score</sprite>
       <sprite>sprites\spr_finalend</sprite>
@@ -219,7 +218,6 @@
     <objects name="End">
       <object>objects\obj_end2</object>
       <object>objects\obj_end1</object>
-      <object>objects\obj_gotoend</object>
       <object>objects\obj_score</object>
       <object>objects\obj_finalend</object>
     </objects>
