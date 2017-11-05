@@ -63,7 +63,8 @@ part_emitter_stream(partRain_sys,partRain_emit,partRain,30);
 
 //Advance System
 //show_message(string(room_speed * 3));
-repeat (room_speed * 2.5){
+repeat (room_speed * 2.5)
+{
     part_system_update(partRain_sys);
 }
 alarm[0] = 10000;

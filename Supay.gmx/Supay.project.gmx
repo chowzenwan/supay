@@ -8,8 +8,16 @@
     <sound>sound\snd_wind</sound>
     <sound>sound\snd_intro</sound>
     <sound>sound\snd_center</sound>
+    <sound>sound\snd_thunder</sound>
   </sounds>
   <sprites name="sprites">
+    <sprites name="end">
+      <sprite>sprites\spr_end1</sprite>
+      <sprite>sprites\spr_enddd</sprite>
+      <sprite>sprites\spr_end2</sprite>
+      <sprite>sprites\spr_score</sprite>
+      <sprite>sprites\spr_finalend</sprite>
+    </sprites>
     <sprites name="door">
       <sprite>sprites\spr_doorclose</sprite>
       <sprite>sprites\spr_dooropen</sprite>
@@ -22,9 +30,12 @@
         <sprite>sprites\spr_bsupay_wink</sprite>
       </sprites>
       <sprites name="attacks">
-        <sprite>sprites\spr_attackred</sprite>
-        <sprite>sprites\spr_attackblue</sprite>
-        <sprite>sprites\spr_attackpurple</sprite>
+        <sprite>sprites\spr_mask</sprite>
+        <sprite>sprites\spr_lighting</sprite>
+      </sprites>
+      <sprites name="tilting">
+        <sprite>sprites\spr_tiltingright</sprite>
+        <sprite>sprites\spr_tiltingleft</sprite>
       </sprites>
     </sprites>
     <sprites name="Hearts">
@@ -104,6 +115,7 @@
     <sprites name="Person">
       <sprite>sprites\spr_personidle</sprite>
       <sprite>sprites\spr_personflee</sprite>
+      <sprite>sprites\spr_personcelebration</sprite>
     </sprites>
     <sprites name="Trees">
       <sprite>sprites\spr_tree02</sprite>
@@ -169,6 +181,7 @@
     </sprites>
     <sprite>sprites\spr_gameover</sprite>
     <sprite>sprites\spr_nothing</sprite>
+    <sprite>sprites\borrar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -203,13 +216,25 @@
     <font>fonts\Early_GameBoy</font>
   </fonts>
   <objects name="objects">
+    <objects name="End">
+      <object>objects\obj_end2</object>
+      <object>objects\obj_end1</object>
+      <object>objects\obj_gotoend</object>
+      <object>objects\obj_score</object>
+      <object>objects\obj_finalend</object>
+    </objects>
     <objects name="BossRoom">
+      <object>objects\obj_gotoroomboss</object>
       <object>objects\obj_boss</object>
       <object>objects\obj_bossterrain</object>
       <objects name="attacks">
-        <object>objects\obj_redball</object>
-        <object>objects\obj_blueball</object>
-        <object>objects\obj_purpleball</object>
+        <object>objects\obj_lightning</object>
+        <object>objects\obj_bossattack</object>
+        <object>objects\obj_lightningmask</object>
+      </objects>
+      <objects name="tilting">
+        <object>objects\obj_tiltingright</object>
+        <object>objects\obj_tiltingleft</object>
       </objects>
     </objects>
     <objects name="hearts">
@@ -267,6 +292,7 @@
     <objects name="Person">
       <object>objects\obj_personidle</object>
       <object>objects\obj_person</object>
+      <object>objects\obj_celebration</object>
     </objects>
     <objects name="Enemy">
       <object>objects\obj_enemy01</object>
@@ -346,6 +372,7 @@
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
     <room>rooms\rm_gameWorldcenter</room>
+    <room>rooms\room15</room>
     <room>rooms\rm_cr</room>
     <room>rooms\rm_groundright</room>
     <room>rooms\rm_rb</room>
@@ -356,12 +383,9 @@
     <room>rooms\rm_pause</room>
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_boss</room>
+    <room>rooms\rm_controls</room>
     <rooms name="end">
-      <room>rooms\rm_bluewin</room>
-      <room>rooms\rm_redwin</room>
-    </rooms>
-    <rooms name="tutorial">
-      <room>rooms\rm_controls</room>
+      <room>rooms\rm_end</room>
     </rooms>
   </rooms>
   <help>

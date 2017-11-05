@@ -65,14 +65,18 @@ obj_bossterrain.image_blend = make_colour_hsv(180,100,250);
   </views>
   <instances>
     <instance objName="obj_boss" x="512" y="384" name="inst_15B053FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bossterrain" x="512" y="640" name="inst_FB7F4C98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bossterrain" x="519" y="660" name="inst_FB7F4C98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="498" y="654" name="inst_1BBFBE2C" locked="0" code="" scaleX="25" scaleY="-0.25" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidplayer" x="96" y="595" name="inst_AB8C7BC7" locked="0" code="" scaleX="24.7741928100586" scaleY="-0.290322571992874" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidplayer2" x="96" y="583" name="inst_E2DDB752" locked="0" code="" scaleX="25" scaleY="0.375" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tree01" x="148" y="539" name="inst_3C455E5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bush" x="856" y="568" name="inst_E4B75250" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidplayer" x="101" y="611" name="inst_AB8C7BC7" locked="0" code="" scaleX="26.1299991607666" scaleY="-0.290322571992874" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidplayer2" x="101" y="602" name="inst_E2DDB752" locked="0" code="" scaleX="26.1290321350098" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree01" x="146" y="559" name="inst_3C455E5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bush" x="860" y="588" name="inst_E4B75250" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dropper" x="32" y="32" name="inst_DBBDD78C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_restart" x="928" y="512" name="inst_3B7913F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tiltingright" x="224" y="704" name="inst_A7E7C40F" locked="0" code="" scaleX="8.25" scaleY="0.8125" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tiltingleft" x="800" y="704" name="inst_C31EA001" locked="0" code="" scaleX="7.64516115188599" scaleY="0.5625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bossattack" x="64" y="32" name="inst_F2B827A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_the_end" x="518" y="487" name="inst_F569162E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
