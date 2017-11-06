@@ -80,6 +80,7 @@ instance_create (obj_houseoflove.x-20, obj_houseoflove.y-40, obj_instructions)
           <argument>
             <kind>1</kind>
             <string>///full house?
+
 if (red == 1 &amp;&amp; blue == 1) fullhouse = true;
 
 if (fullhouse)
@@ -92,6 +93,7 @@ if (fullhouse)
         ye = (obj_houseoflove.y - (18+i)); 
         instance_create(obj_houseoflove.x, ye, obj_person);
         i = i + 1;
+        sprite_index = spr_houseoflove; 
         instance_create (obj_houseoflove.x, obj_houseoflove.y-20, obj_hearts)
     }
                         

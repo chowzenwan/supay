@@ -77,7 +77,8 @@ alarm[1]= 50000;
             <string>///Spawn random attacks
 randomize();
 var wave = random_range(5,5000);
-//instance_create(x,y,choose(scr_rain(), scr_rain()));
+
+//instance_create(x,y,choose(scr_rain()));
 
 if (instance_number(obj_rain) == 0)
 {
@@ -95,6 +96,32 @@ if (instance_number(obj_rain) == 0)
 } 
 //show_message('wave' + string(wave));
 alarm[0] = wave;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/*if image_speed = -1
+{
+sprite_index = choose(spr_fire,  spr_hit, spr_idle, spr_idle, spr_idle, spr_recharge, spr_spam, spr_wink);
+}
 </string>
           </argument>
         </arguments>
