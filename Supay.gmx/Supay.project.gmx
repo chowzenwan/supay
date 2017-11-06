@@ -9,6 +9,7 @@
     <sound>sound\snd_intro</sound>
     <sound>sound\snd_center</sound>
     <sound>sound\snd_thunder</sound>
+    <sound>sound\snd_whoosh</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="end">
@@ -47,6 +48,7 @@
       <sprite>sprites\spr_houseofloveblue</sprite>
       <sprite>sprites\spr_houseoflovered</sprite>
       <sprite>sprites\spr_hearts</sprite>
+      <sprite>sprites\instructions</sprite>
     </sprites>
     <sprites name="random animals">
       <sprite>sprites\spr_frog</sprite>
@@ -215,6 +217,11 @@
     <font>fonts\Early_GameBoy</font>
   </fonts>
   <objects name="objects">
+    <objects name="Magic Stone">
+      <object>objects\obj_houseoflove</object>
+      <object>objects\obj_instructions</object>
+      <object>objects\obj_hearts</object>
+    </objects>
     <objects name="End">
       <object>objects\obj_end2</object>
       <object>objects\obj_end1</object>
@@ -277,7 +284,6 @@
     <objects name="temple">
       <object>objects\obj_ball</object>
       <object>objects\obj_temple</object>
-      <object>objects\obj_hearts</object>
     </objects>
     <objects name="trees">
       <object>objects\obj_tree02</object>
@@ -351,7 +357,6 @@
       <object>objects\obj_lf</object>
     </objects>
     <object>objects\obj_the_end</object>
-    <object>objects\obj_houseoflove</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_spawner</object>
     <object>objects\obj_shake</object>

@@ -104,6 +104,7 @@ if room_next(room) != -1
         recently_touch = true;
         alarm[0] = 1.5 * room_speed;
         room_goto(room_next(room));
+        audio_play_sound(snd_whoosh,0,0);
     }
 } else {
    room_goto(rm_gameWorldcenter)};
