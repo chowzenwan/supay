@@ -67,7 +67,7 @@
     <instance objName="obj_solidplayer" x="341" y="508" name="inst_A57DCA3F" locked="0" code="" scaleX="4.19354820251465" scaleY="0.15625" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidplayer" x="327" y="571" name="inst_8F097BBC" locked="0" code="" scaleX="13.1875" scaleY="0.129032254219055" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidplayer" x="636" y="614" name="inst_4AF9A0AC" locked="0" code="" scaleX="5.59375" scaleY="0.09375" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidplayer" x="361" y="444" name="inst_BD534BC1" locked="0" code="" scaleX="1.41935479640961" scaleY="0.09375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidplayer" x="361" y="444" name="inst_BD534BC1" locked="0" code="" scaleX="1.4375" scaleY="0.03125" colour="4294967295" rotation="0"/>
     <instance objName="obj_right" x="544" y="288" name="inst_2095642A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree02" x="421" y="376" name="inst_B8589D85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree04" x="462" y="285" name="inst_5513B4EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -82,7 +82,7 @@
     <instance objName="obj_solid" x="526" y="396" name="inst_1349D9F8" locked="0" code="" scaleX="7.5" scaleY="0.125" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="669" y="447" name="inst_2C4B7918" locked="0" code="" scaleX="1.5" scaleY="0.15625" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="683" y="488" name="inst_0F3F4C86" locked="0" code="" scaleX="4.46875" scaleY="0.15625" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solid" x="383" y="447" name="inst_027E2AE9" locked="0" code="" scaleX="1.51612901687622" scaleY="0.1875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="383" y="445" name="inst_027E2AE9" locked="0" code="" scaleX="1.5" scaleY="0.0625" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="408" y="510" name="inst_E0015D03" locked="0" code="" scaleX="4.1875" scaleY="0.125" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="539" y="573" name="inst_AC4E4DD4" locked="0" code="" scaleX="13.1612901687622" scaleY="0.125" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="726" y="617" name="inst_0812CD84" locked="0" code="" scaleX="5.6875" scaleY="0.15625" colour="4294967295" rotation="0"/>

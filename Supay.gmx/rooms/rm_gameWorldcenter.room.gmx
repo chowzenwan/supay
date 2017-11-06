@@ -140,8 +140,8 @@ audio_stop_all();
     <instance objName="obj_bug" x="704" y="0" name="inst_DB78D318" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_restart" x="538" y="770" name="inst_61C68CF8" locked="0" code="" scaleX="34.25" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_thunder" x="288" y="448" name="inst_7DA7D68D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cloudfront" x="288" y="928" name="inst_5C46AAD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sombra" x="-416" y="384" name="inst_FD0E8107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloudfront" x="512" y="384" name="inst_5C46AAD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sombra" x="512" y="384" name="inst_FD0E8107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pausecontroller" x="992" y="32" name="inst_7A0A7350" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_camara" x="512" y="384" name="inst_C535E152" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_heartsblue" x="64" y="32" name="inst_E888CF70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

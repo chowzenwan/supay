@@ -108,8 +108,23 @@ global.help = true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.resume = true {room_goto(rm_mainMenu)}
-else if global.help = true {room_goto(rm_tuto1)}
+            <string>/*if global.resume = true 
+{
+    pause = true
+    room_goto(global.RoomBeforePause);
+    instance_activate_all();
+}
+*/
+else if global.help = true 
+{
+    instance_create(room_width/2,room_height/2,obj_1t);
+    
+        if keyboard_check_pressed(vk_enter) 
+    with (obj_1t)
+    {
+        instance_destroy();
+    } 
+}
 else if global.quit = true {room_goto(rm_mainMenu)}
 </string>
           </argument>
