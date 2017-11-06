@@ -114,6 +114,24 @@ audio_stop_all();
     <instance objName="obj_house7" x="420" y="431" name="inst_FCAA5ECA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="542" y="227" name="inst_5A8CED3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_house8" x="736" y="468" name="inst_3F066763" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_personidle" x="588" y="295" name="inst_4212D109" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="577" y="618" name="inst_E6941AA2" locked="0" code="" scaleX="13.90625" scaleY="0.21875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="819" y="575" name="inst_02ACF072" locked="0" code="" scaleX="4.65625" scaleY="0.129032254219055" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="799" y="601" name="inst_42DBB281" locked="0" code="" scaleX="0.15625" scaleY="1.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="892" y="558" name="inst_E2608A52" locked="0" code="" scaleX="0.15625" scaleY="1.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="828" y="467" name="inst_D69A6C46" locked="0" code="" scaleX="0.15625" scaleY="1.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="728" y="396" name="inst_7B509D1A" locked="0" code="" scaleX="4.3125" scaleY="0.102564103901386" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="794" y="378" name="inst_13E35A1E" locked="0" code="" scaleX="0.15625" scaleY="1.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="620" y="334" name="inst_4705BD18" locked="0" code="" scaleX="3.5625" scaleY="0.0769230797886848" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="675" y="315" name="inst_F8FCCE09" locked="0" code="" scaleX="0.15625" scaleY="1.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="459" y="446" name="inst_D7D4531C" locked="0" code="" scaleX="4.5625" scaleY="0.0769230797886848" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="581" y="522" name="inst_B70F1B6F" locked="0" code="" scaleX="4.5625" scaleY="0.0769230797886848" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="514" y="572" name="inst_DBAD4178" locked="0" code="" scaleX="2.75" scaleY="0.0769230797886848" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="334" y="522" name="inst_74FC2DC2" locked="0" code="" scaleX="0.71875" scaleY="0.0769230797886848" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="389" y="428" name="inst_A6A9CC38" locked="0" code="" scaleX="0.15625" scaleY="1.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="321" y="505" name="inst_36F1A437" locked="0" code="" scaleX="0.15625" scaleY="1.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="357" y="603" name="inst_F03DC88D" locked="0" code="" scaleX="0.15625" scaleY="1.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="654" y="514" name="inst_F870A45A" locked="0" code="" scaleX="0.15625" scaleY="0.625" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

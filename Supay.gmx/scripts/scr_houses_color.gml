@@ -43,4 +43,4 @@ switch (room_get_name(room))
 }
 
 //show_message('the end value is: ' + global.the_end);
-if (global.the_end == 1) instance_create(561, 216, obj_the_end);
+if (global.the_end == 9) instance_create(561, 216, obj_the_end);
