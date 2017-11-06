@@ -107,6 +107,7 @@ var wave = random_range(5,5000);
 if (instance_number(obj_rain) == 0)
 {
     //show_message('crea lluevia');
+    sprite_index = spr_spam
     instance_create(x,y,obj_rain);
     alarm[1] = 50000;
 } else {
@@ -114,6 +115,7 @@ if (instance_number(obj_rain) == 0)
     with(obj_rain)
     {
         part_system_destroy(partRain_sys);
+        sprite_index = spr_idle
         instance_destroy();
     }
     alarm[1] = 50000;
@@ -169,7 +171,7 @@ sprite_index = choose(spr_fire,  spr_hit, spr_idle, spr_idle, spr_idle, spr_rech
           <argument>
             <kind>1</kind>
             <string>//sprite_index = choose(spr_fire,  spr_hit, spr_idle, spr_idle, spr_idle, spr_recharge, spr_spam, spr_wink);
-sprite_index = spr_idle;
+sprite_index = choose(spr_idle, spr_wink, spr_idle);
 </string>
           </argument>
         </arguments>
