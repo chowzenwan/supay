@@ -87,18 +87,20 @@ with(player)
                 //show_message(name); //just for tests
                 with (obj_houseoflove)
                 {
-                    if (fullhouse == false) 
+                    if (fullhouse == false)
                     {
                         //show_message('when is false');
                         if (name == 'obj_player1' && red < 1) 
                         {
                             red = red + 1;
                             scr_player_carry_to_normal(player, spr_idles);
+                            sprite_index = spr_houseoflovered; 
                         }
                         if (name == 'obj_player2' && blue < 1) 
                         {
                             blue = blue + 1;
                             scr_player_carry_to_normal(player, spr_idles);
+                            sprite_index = spr_houseofloveblue;
                         }
                         //show_message('red: ' + string(red) + 'blue: ' + string(blue));  
                     }
