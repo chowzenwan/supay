@@ -10,45 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>show_message('soy rm_groundright 2');
-/*
-
-global.the_end = 0;
-
-//player_state = ply_state.normal;
-//list for transitions not using it now
-/*enum transition {
-    fade
-}
-
-
-//states
-enum ply_state
-{
-    normal,
-    carry,
-}
-
-enum house_color {
-    red,
-    blue,
-    yellow,
-}
-
-
-/*
-audio_stop_all();
-
-    if (room == rm_gameWorldcenter &amp;&amp; !audio_is_playing(snd_center)) 
-    {
-    audio_play_sound(snd_center, 10, 1);
-    }
-    else if (room != rm_gameWorldcenter &amp;&amp; audio_is_playing(snd_center)) 
-    {
-    audio_stop_sound(snd_center);
-    }
-
-*/</code>
+  <code></code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

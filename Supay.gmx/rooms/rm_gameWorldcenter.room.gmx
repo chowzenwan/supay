@@ -160,7 +160,6 @@ audio_stop_all();
     <instance objName="obj_personidle" x="576" y="-96" name="inst_0C4B41B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_personidle" x="608" y="-128" name="inst_85E008D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="561" y="232" name="inst_D6911385" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_gotoroomboss" x="352" y="352" name="inst_10CBC29D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
