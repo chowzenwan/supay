@@ -33,7 +33,7 @@ enum house_color {
 }
 
 
-
+/*
 audio_stop_all();
 
     if (room == rm_gameWorldcenter &amp;&amp; !audio_is_playing(snd_center)) 

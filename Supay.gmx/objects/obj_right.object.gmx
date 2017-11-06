@@ -55,7 +55,7 @@ recently_touch = false;
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="4" ename="obj_player2">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -72,7 +72,19 @@ recently_touch = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//room_goto(rm_gameright);
+            <string>/// turn world to the rite
+
+if room_next(room) != -1
+{
+    if !recently_touch
+    {
+        recently_touch = true;
+        alarm[0] = 1.5 * room_speed;
+        room_goto(room_next(room));
+        audio_play_sound(snd_whoosh,0,0);
+    }
+} else {
+   room_goto(rm_gameWorldcenter)};
 </string>
           </argument>
         </arguments>

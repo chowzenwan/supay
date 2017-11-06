@@ -375,7 +375,6 @@
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
     <room>rooms\rm_gameWorldcenter</room>
-    <room>rooms\room15</room>
     <room>rooms\rm_cr</room>
     <room>rooms\rm_groundright</room>
     <room>rooms\rm_rb</room>

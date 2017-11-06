@@ -10,7 +10,8 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>/*
+  <code>show_message('soy rm_groundright 2');
+/*
 
 global.the_end = 0;
 
