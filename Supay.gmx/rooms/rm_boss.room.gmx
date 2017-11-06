@@ -23,7 +23,20 @@ obj_tree01.image_blend = make_colour_hsv(180,100,250);
 if obj_bossterrain
 {
 obj_bossterrain.image_blend = make_colour_hsv(180,100,250);
-}</code>
+}
+
+
+audio_stop_all();
+
+    if (room == rm_end &amp;&amp; !audio_is_playing(snd_boss)) 
+    {
+    audio_play_sound(snd_boss,0,1);
+    sound_volume(snd_boss, 1);
+    }
+    else if (room != rm_end &amp;&amp; audio_is_playing(snd_boss)) 
+    {
+    audio_stop_sound(snd_boss);
+    }</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

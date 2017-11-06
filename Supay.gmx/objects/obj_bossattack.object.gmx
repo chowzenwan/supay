@@ -32,7 +32,8 @@ if num &lt; 10
 randomize();
 xs = irandom_range (96,896)
 instance_create(xs,0, obj_lightning);
-audio_play_sound(snd_thunder,0,0)
+audio_play_sound(snd_thunder,1,0);
+sound_volume(snd_thunder, 0.1);
 }
 </string>
           </argument>

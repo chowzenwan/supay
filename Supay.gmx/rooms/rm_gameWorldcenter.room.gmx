@@ -107,7 +107,7 @@ audio_stop_all();
     <instance objName="obj_solidplayer" x="603" y="445" name="inst_B9481689" locked="0" code="" scaleX="4.09677410125732" scaleY="0.0967741906642914" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="734" y="431" name="inst_D6BB8CC2" locked="0" code="" scaleX="0.0625" scaleY="1.0625" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="464" y="503" name="inst_4B7A2740" locked="0" code="" scaleX="0.09375" scaleY="1.125" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solid" x="735" y="525" name="inst_0B50177E" locked="0" code="" scaleX="3.91000008583069" scaleY="0.161290317773819" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="688" y="524" name="inst_0B50177E" locked="0" code="" scaleX="6.96999979019165" scaleY="0.125" colour="4294967295" rotation="0"/>
     <instance objName="obj_houseoflove" x="592" y="602" name="inst_8DA16415" locked="0" code="" scaleX="0.709677398204803" scaleY="0.74193549156189" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidplayer" x="324" y="615" name="inst_B76B163A" locked="0" code="" scaleX="13.9375" scaleY="0.15625" colour="4294967295" rotation="0"/>
     <instance objName="obj_house" x="329" y="555" name="inst_97892779" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -117,7 +117,7 @@ audio_stop_all();
     <instance objName="obj_tree04" x="239" y="561" name="inst_3CD90F22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner" x="554" y="200" name="inst_4B046803" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree05" x="772" y="568" name="inst_83E43332" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_groundcenter" x="150" y="91" name="inst_D886B6D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_groundcenter" x="151" y="92" name="inst_D886B6D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_right" x="544" y="320" name="inst_4891C8C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="661" y="602" name="inst_24262CD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="459" y="602" name="inst_D4A18C73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
