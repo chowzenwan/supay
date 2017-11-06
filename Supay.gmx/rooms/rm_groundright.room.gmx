@@ -83,6 +83,23 @@
     <instance objName="obj_house6" x="632" y="558" name="inst_B5917065" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="397" y="616" name="inst_550E0506" locked="0" code="" scaleX="5.53125" scaleY="0.125" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="566" y="230" name="inst_359F5E2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="416" y="478" name="inst_EF572769" locked="0" code="" scaleX="3.03125" scaleY="0.125" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="437" y="519" name="inst_29079A7B" locked="0" code="" scaleX="4.15625" scaleY="0.09375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="642" y="574" name="inst_AE8E6905" locked="0" code="" scaleX="9.875" scaleY="0.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="492" y="390" name="inst_24C74878" locked="0" code="" scaleX="1.125" scaleY="0.09375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="743" y="511" name="inst_CDB9FB53" locked="0" code="" scaleX="2.34375" scaleY="0.15625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="693" y="391" name="inst_8E83193B" locked="0" code="" scaleX="1.59375" scaleY="0.125" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="589" y="334" name="inst_E9EDD829" locked="0" code="" scaleX="4.90625" scaleY="0.09375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="844" y="601" name="inst_3E60D9F9" locked="0" code="" scaleX="0.121212124824524" scaleY="1.09375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="748" y="603" name="inst_6520028C" locked="0" code="" scaleX="0.125" scaleY="0.96875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="368" y="463" name="inst_69DD6855" locked="0" code="" scaleX="0.09375" scaleY="1.0625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="781" y="496" name="inst_A993DF50" locked="0" code="" scaleX="0.09375" scaleY="1.0625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="308" y="599" name="inst_8026EBA9" locked="0" code="" scaleX="0.09375" scaleY="1.0625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="486" y="601" name="inst_556D9CA6" locked="0" code="" scaleX="0.09375" scaleY="1.0625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="474" y="375" name="inst_C3FBE934" locked="0" code="" scaleX="0.09375" scaleY="1.0625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="717" y="376" name="inst_B04EE0CA" locked="0" code="" scaleX="0.09375" scaleY="1.0625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="764" y="427" name="inst_000F8178" locked="0" code="" scaleX="0.09375" scaleY="1.0625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_personidle" x="625" y="291" name="inst_7274F85E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

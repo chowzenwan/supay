@@ -195,6 +195,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\room_goto_transition.gml</script>
     <script>scripts\scr_movement.gml</script>
     <script>scripts\scr_shooting.gml</script>
     <script>scripts\scr_sprites.gml</script>
@@ -212,9 +213,6 @@
     <script>scripts\scr_game_over.gml</script>
     <script>scripts\scr_rain.gml</script>
   </scripts>
-  <shaders name="shaders">
-    <shader type="GLSLES">shaders\shader0.shader</shader>
-  </shaders>
   <fonts name="fonts">
     <font>fonts\Early_GameBoy</font>
   </fonts>
