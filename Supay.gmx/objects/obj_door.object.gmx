@@ -32,8 +32,7 @@ if(global.the_end == 1)
     instance_deactivate_object(obj_sombra);
     instance_deactivate_object(obj_cloudfront);
     instance_deactivate_object(obj_supay);
-    part_system_destroy(obj_rain.partRain_sys);
-    instance_deactivate_object(obj_rain);
+    src_stop_raining();
     room_goto(rm_boss);
 }
 
@@ -67,8 +66,7 @@ if(global.the_end == 1)
     instance_deactivate_object(obj_sombra);
     instance_deactivate_object(obj_cloudfront);
     instance_deactivate_object(obj_supay);
-    part_system_destroy(obj_rain.partRain_sys);
-    instance_deactivate_object(obj_rain);
+    src_stop_raining();
     room_goto(rm_boss);
 }
 

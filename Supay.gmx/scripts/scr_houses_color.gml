@@ -12,7 +12,7 @@ var house9 = argument8;
 
 //other vars
 
-show_message('this is room: ' + room_get_name(room));
+//show_message('this is room: ' + room_get_name(room));
 switch (room_get_name(room))
 {
     case 'rm_gameWorldcenter':

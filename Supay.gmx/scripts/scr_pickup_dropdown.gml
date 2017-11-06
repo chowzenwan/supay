@@ -76,7 +76,7 @@ with(player)
                         {
                             timer += 0.001;
                         }
-                        //scr_shaky(obj_house, obj_house2,obj_house3, obj_house4, obj_house5, obj_temple, obj_house6,obj_house7, obj_house8, obj_house9);
+                        scr_shaky(obj_house, obj_house2,obj_house3, obj_house4, obj_house5, obj_temple, obj_house6,obj_house7, obj_house8, obj_house9);
                         //show_message('ola');
                         //obj_supay.sprite_index = spr_idle;  
                     }

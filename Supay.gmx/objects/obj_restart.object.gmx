@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart();
+            <string>src_stop_raining();
+game_restart();
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart();
+            <string>src_stop_raining();
+game_restart();
 </string>
           </argument>
         </arguments>
