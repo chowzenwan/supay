@@ -12,6 +12,7 @@ var house9 = argument8;
 
 //other vars
 
+
 //show_message('this is room: ' + room_get_name(room));
 switch (room_get_name(room))
 {
@@ -42,5 +43,5 @@ switch (room_get_name(room))
     break;
 }
 
-//show_message('the end value is: ' + string(global.the_end));
-if (global.the_end == 1) instance_create(561, 216, obj_the_end);
+show_message('the end value is: ' + string(global.the_end));
+if (global.the_end == 2) obj_door.sprite_index = spr_dooropen

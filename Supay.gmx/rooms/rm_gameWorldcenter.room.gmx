@@ -119,7 +119,7 @@ audio_stop_all();
     <instance objName="obj_spawner" x="554" y="200" name="inst_4B046803" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree05" x="772" y="568" name="inst_83E43332" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_groundcenter" x="151" y="92" name="inst_D886B6D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_right" x="544" y="320" name="inst_4891C8C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_right" x="634" y="322" name="inst_4891C8C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="661" y="602" name="inst_24262CD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="459" y="602" name="inst_D4A18C73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="430" y="338" name="inst_5EE3AF14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -133,7 +133,7 @@ audio_stop_all();
     <instance objName="obj_houses" x="32" y="0" name="inst_F3E40E14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_personidle" x="672" y="576" name="inst_47AC347A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_personidle" x="736" y="576" name="inst_ECF99BCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_water" x="665" y="440" name="inst_1B970283" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_water" x="666" y="440" name="inst_1B970283" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bug" x="360" y="392" name="inst_2AD516B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_frog" x="712" y="510" name="inst_46893008" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_house4" x="762" y="468" name="inst_405829FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -55,10 +55,10 @@
     <instance objName="obj_dropper" x="517" y="748" name="inst_BB9B4EDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stardropper" x="96" y="0" name="inst_EFF7FE2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_houses" x="32" y="0" name="inst_F3E40E14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_back" x="64" y="64" name="inst_31254660" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bug" x="704" y="0" name="inst_DB78D318" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_restart" x="538" y="770" name="inst_61C68CF8" locked="0" code="" scaleX="34.25" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_rb" x="542" y="434" name="inst_E17CD232" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="577" y="234" name="inst_638CCC91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

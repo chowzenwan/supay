@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Initialize Variables
+image_speed = 0.3
 recently_touch = false;
 </string>
           </argument>
