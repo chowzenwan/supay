@@ -44,12 +44,12 @@ with(player)
                     house = object_get_name(object_index);
                     //show_message(house); //just for tests
                     value += 1;
-                    show_message('num persons : ' + string(value)); //just for tests
+                    //show_message('num persons : ' + string(value)); //just for tests
                     
                     if (name == 'obj_player1') red += 1;
                     if (name == 'obj_player2') blue += 1;
                         
-                    show_message('red: ' + string(red) + ' blue: ' + string(blue)); //just for tests
+                    //show_message('red: ' + string(red) + ' blue: ' + string(blue)); //just for tests
                         
                     if (red > blue) 
                     {
