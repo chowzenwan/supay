@@ -43,17 +43,17 @@ with(player)
                 {
                     house = object_get_name(object_index);
                     //show_message(house); //just for tests
-                    value = value + 1;
-                    //show_message('num persons : ' + string(value)); //just for tests
+                    value += 1;
+                    show_message('num persons : ' + string(value)); //just for tests
                     
-                    if (name == 'obj_player1') red = red + 1;
-                    if (name == 'obj_player2') blue = blue + 1;
+                    if (name == 'obj_player1') red += 1;
+                    if (name == 'obj_player2') blue += 1;
                         
-                    //show_message('red: ' + string(red) + ' blue: ' + string(blue)); //just for tests
+                    show_message('red: ' + string(red) + ' blue: ' + string(blue)); //just for tests
                         
                     if (red > blue) 
                     {
-                        sprite_index = spr_houseredanimation; 
+                        sprite_index = spr_houseredanimation;
                     }
                     if (red < blue) 
                     {
@@ -72,9 +72,9 @@ with(player)
                         obj_supay.sprite_index = spr_fire;                 
                         //alarm[1] = 100 * room_speed;
                         timer = 0;
-                        while(timer <1)
+                        while(timer <10)
                         {
-                            timer += 0.001;
+                            timer += 0.0001;
                         }
                         scr_shaky(obj_house, obj_house2,obj_house3, obj_house4, obj_house5, obj_temple, obj_house6,obj_house7, obj_house8, obj_house9);
                         //show_message('ola');
@@ -92,13 +92,13 @@ with(player)
                         //show_message('when is false');
                         if (name == 'obj_player1' && red < 1) 
                         {
-                            red = red + 1;
+                            red += 1;
                             scr_player_carry_to_normal(player, spr_idles);
                             sprite_index = spr_houseoflovered; 
                         }
                         if (name == 'obj_player2' && blue < 1) 
                         {
-                            blue = blue + 1;
+                            blue += 1;
                             scr_player_carry_to_normal(player, spr_idles);
                             sprite_index = spr_houseofloveblue;
                         }
@@ -116,11 +116,11 @@ with(player)
                 {
                     //temple = object_get_name(object_index);
                     //show_message(temple); //just for tests
-                    value = value + 1;
+                    value += 1;
                     show_message('num persons : ' + string(value)); //just for tests
                     
-                    if (name == 'obj_player1') red = red + 1;
-                    if (name == 'obj_player2') blue = blue + 1;
+                    if (name == 'obj_player1') red += 1;
+                    if (name == 'obj_player2') blue += 1
                         
                     //show_message('red: ' + string(red) + ' blue: ' + string(blue)); //just for tests
                     //TODO: change temple sprites  
