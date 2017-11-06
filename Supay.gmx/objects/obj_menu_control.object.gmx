@@ -108,15 +108,15 @@ global.help = true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*if global.resume = true 
-{
+            <string>if global.resume = true {room_goto(rm_gameWorldcenter)}
+/*{
     pause = true
     room_goto(global.RoomBeforePause);
     instance_activate_all();
 }
 */
-if global.help == true 
-{
+if global.help == true  {room_goto(rm_controls)}
+/*{
     instance_create(room_width/2,room_height/2,obj_1t);
     
         if keyboard_check_pressed(vk_enter) 
@@ -125,7 +125,8 @@ if global.help == true
         instance_destroy();
     } 
 }
-else if global.quit == true {room_goto(rm_mainMenu)}
+*/
+else if global.quit == true {game_end()}
 </string>
           </argument>
         </arguments>

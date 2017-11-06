@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Start alarm
-alarm[0] = 50;
+alarm[0] = 80;
 
 depth = -1000
 </string>
@@ -55,9 +55,12 @@ depth = -1000
 randomize();
 var wave = random_range(5,700);
 //Creating the enemies
-//instance_create(x,y,choose(obj_enemy01, obj_enemy02, obj_enemy01));
+instance_create(x,y,choose(obj_enemy01, obj_enemy02, obj_enemy01));
 alarm[0] = wave;
-//obj_door.sprite_index = spr_dooropen
+obj_door.sprite_index = spr_dooropen
+
+with obj_supay
+sprite_index = choose(spr_recharge,spr_hit)
 </string>
           </argument>
         </arguments>

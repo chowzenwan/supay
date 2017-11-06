@@ -56,6 +56,7 @@ show_message('blue: ' + string(global.final_score_blue));</code>
     <instance objName="obj_dropper" x="32" y="32" name="inst_2C278631" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dropper" x="64" y="32" name="inst_83253B57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dropper" x="96" y="32" name="inst_4EF23444" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_scores" x="992" y="32" name="inst_8DFBEF41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

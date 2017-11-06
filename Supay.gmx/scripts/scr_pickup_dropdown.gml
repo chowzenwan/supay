@@ -118,7 +118,7 @@ with(player)
                     //temple = object_get_name(object_index);
                     //show_message(temple); //just for tests
                     value += 1;
-                    show_message('num persons : ' + string(value)); //just for tests
+                    //show_message('num persons : ' + string(value)); //just for tests
                     
                     if (name == 'obj_player1') {red += 1; global.final_score_red = red;}
                     if (name == 'obj_player2') {blue += 1; global.final_score_blue = blue;}

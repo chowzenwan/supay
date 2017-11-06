@@ -56,19 +56,19 @@ pause = 0;
     {
         pause = 1;
         instance_deactivate_all(true);
-        instance_create(512,400,obj_menu_control);
+        /*instance_create(512,400,obj_menu_control);
         //instance_create(512,420,obj_resume);
         instance_create(512,450,obj_help);
-        instance_create(512,480,obj_quit);
+        instance_create(512,480,obj_quit);*/
     }
     else
     {
         pause = 0;
         instance_activate_all();
-        instance_deactivate_object(obj_menu_control);
+        /*instance_deactivate_object(obj_menu_control);
         //instance_deactivate_object(obj_resume);
         instance_deactivate_object(obj_help);
-        instance_deactivate_object(obj_quit);
+        instance_deactivate_object(obj_quit);*/
     }
 }
 </string>

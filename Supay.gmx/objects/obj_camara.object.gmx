@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_camara</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>10000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(obj_player1) 
+            <string>/*if instance_exists(obj_player1) 
 and instance_exists(obj_player2) 
 {
 x=(obj_player1.x+obj_player2.x)/2
