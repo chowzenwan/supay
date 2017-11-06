@@ -10,6 +10,8 @@
     <sound>sound\snd_center</sound>
     <sound>sound\snd_thunder</sound>
     <sound>sound\snd_whoosh</sound>
+    <sound>sound\snd_final</sound>
+    <sound>sound\snd_boss</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="end">
