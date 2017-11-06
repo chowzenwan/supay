@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if image_alpha &gt; 0 image_alpha -= 0.001;
+            <string>if image_alpha &gt; 0 image_alpha -= 0.005;
+
+if image_alpha = 0 
+{
+room_goto(rm_mainMenu);
+}
 </string>
           </argument>
         </arguments>
