@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>depth = 1
-image_alpha = 0.8
+image_alpha = 0.6
+
 </string>
           </argument>
         </arguments>

@@ -118,10 +118,14 @@ if BlinkTimer &gt;= 1
             <string>if alarm[0]
 {
 //draw_sprite(sprite_index,Blink,x,y)
+//show_message(global.final_score_red);
+//show_message(global.final_score_blue);
 draw_set_font(Early_GameBoy);
 draw_set_color(c_white);
-draw_text_transformed(430,370,global.final_score_red,2,2,0) 
-draw_text_transformed(570,370,global.final_score_blue,2,2,0)
+//draw_text_transformed(430,370,global.final_score_red,2,2,0) 
+//draw_text_transformed(570,370,global.final_score_blue,2,2,0)
+draw_text_transformed(570,370,string(global.final_score_red),2,2,0) 
+draw_text_transformed(430,370,string(global.final_score_blue),2,2,0)
 }
 </string>
           </argument>

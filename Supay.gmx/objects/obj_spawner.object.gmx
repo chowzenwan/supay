@@ -45,7 +45,7 @@ depth = -1000
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>other</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -55,9 +55,9 @@ depth = -1000
 randomize();
 var wave = random_range(5,700);
 //Creating the enemies
+if global.the_end == 0 obj_door.sprite_index = spr_dooropen
 instance_create(x,y,choose(obj_enemy01, obj_enemy02, obj_enemy01));
 alarm[0] = wave;
-obj_door.sprite_index = spr_dooropen
 
 with obj_supay
 sprite_index = choose(spr_recharge,spr_hit)
