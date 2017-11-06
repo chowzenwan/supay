@@ -115,7 +115,7 @@ global.help = true
     instance_activate_all();
 }
 */
-else if global.help = true 
+if global.help == true 
 {
     instance_create(room_width/2,room_height/2,obj_1t);
     
@@ -125,7 +125,7 @@ else if global.help = true
         instance_destroy();
     } 
 }
-else if global.quit = true {room_goto(rm_mainMenu)}
+else if global.quit == true {room_goto(rm_mainMenu)}
 </string>
           </argument>
         </arguments>

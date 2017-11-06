@@ -46,8 +46,8 @@ with(player)
                     value += 1;
                     //show_message('num persons : ' + string(value)); //just for tests
                     
-                    if (name == 'obj_player1') red += 1;
-                    if (name == 'obj_player2') blue += 1;
+                    if (name == 'obj_player1') {red += 1; global.final_score_red = red;}
+                    if (name == 'obj_player2') {blue += 1; global.final_score_blue = blue;}
                         
                     //show_message('red: ' + string(red) + ' blue: ' + string(blue)); //just for tests
                         
@@ -119,8 +119,8 @@ with(player)
                     value += 1;
                     show_message('num persons : ' + string(value)); //just for tests
                     
-                    if (name == 'obj_player1') red += 1;
-                    if (name == 'obj_player2') blue += 1
+                    if (name == 'obj_player1') {red += 1; global.final_score_red = red;}
+                    if (name == 'obj_player2') {blue += 1; global.final_score_blue = blue;}
                         
                     //show_message('red: ' + string(red) + ' blue: ' + string(blue)); //just for tests
                     //TODO: change temple sprites  

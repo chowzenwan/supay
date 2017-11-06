@@ -12,6 +12,8 @@
   <showcolour>-1</showcolour>
   <code>global.the_end = 0;
 global.RoomBeforePause = room;
+global.final_score_red = 0;
+global.final_score_blue = 0;
 
 //player_state = ply_state.normal;
 //list for transitions not using it now
