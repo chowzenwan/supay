@@ -94,7 +94,8 @@
       <sprite>sprites\spr_ball</sprite>
       <sprite>sprites\spr_templenormal</sprite>
       <sprite>sprites\spr_templefull</sprite>
-      <sprite>sprites\sprite74</sprite>
+      <sprite>sprites\spr_templemedium</sprite>
+      <sprite>sprites\spr_templeone</sprite>
     </sprites>
     <sprites name="Ground">
       <sprites name="gound tuto">

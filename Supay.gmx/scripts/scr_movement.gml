@@ -1,19 +1,9 @@
 ///scr_movement
 
 //Check for ground
-if (place_meeting(x,y+1,solidobject)) {
-//platform=instance_position(x, y+vspd, solidobject)
-
-//    if instance_exists(platform)
-  //  {
-    //    if platform.y+20>y
-      //  {
-    //if vspd>0
-    //{
-    vspd = 0;
-    //}
-   // }
-    //}    
+if (place_meeting(x,y+1,solidobject)) 
+{
+    vspd = 0; 
     //Jumping
     if keyboard_check_pressed(jkey) {
         vspd = -jspd;
