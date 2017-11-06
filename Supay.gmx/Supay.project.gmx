@@ -228,6 +228,7 @@
       <object>objects\obj_end1</object>
       <object>objects\obj_score</object>
       <object>objects\obj_finalend</object>
+      <object>objects\obj_scores</object>
     </objects>
     <objects name="BossRoom">
       <object>objects\obj_gotoroomboss</object>
@@ -303,6 +304,7 @@
       <object>objects\obj_enemy01</object>
       <object>objects\obj_enemy</object>
       <object>objects\obj_enemy02</object>
+      <object>objects\obj_spawner</object>
     </objects>
     <objects name="Buttons">
       <objects name="end">
@@ -329,11 +331,9 @@
         <object>objects\obj_pausecontroller</object>
       </objects>
       <object>objects\obj_title</object>
-      <object>objects\object70</object>
       <object>objects\obj_button_parent_2</object>
       <object>objects\obj_button_start</object>
       <object>objects\obj_skip</object>
-      <object>objects\obj_exit</object>
       <object>objects\obj_back</object>
     </objects>
     <objects name="Players">
@@ -359,7 +359,6 @@
     </objects>
     <object>objects\obj_the_end</object>
     <object>objects\obj_bullet</object>
-    <object>objects\obj_spawner</object>
     <object>objects\obj_shake</object>
     <object>objects\obj_houses</object>
     <object>objects\Obj_roomtransition</object>
@@ -368,10 +367,10 @@
     <object>objects\obj_supay</object>
     <object>objects\obj_water</object>
     <object>objects\obj_restart</object>
-    <object>objects\obj_thunder</object>
     <object>objects\obj_rain</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_door</object>
+    <object>objects\obj_controlback</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>

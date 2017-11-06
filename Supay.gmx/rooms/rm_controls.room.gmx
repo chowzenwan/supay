@@ -57,6 +57,17 @@ room_goto(rm_mainMenu);
     <instance objName="obj_stardropper" x="0" y="0" name="inst_C53017FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dropper" x="32" y="0" name="inst_09B124B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_1t" x="512" y="384" name="inst_FC8B19AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controlback" x="64" y="0" name="inst_581FDDC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player1" x="608" y="64" name="inst_940778C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player2" x="352" y="64" name="inst_FBD1E165" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_personidle" x="416" y="64" name="inst_93E9FD58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_personidle" x="512" y="64" name="inst_2AA25AC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidplayer" x="189" y="128" name="inst_0839F205" locked="0" code="" scaleX="20.8400001525879" scaleY="0.219999998807907" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="523" y="132" name="inst_A544B39D" locked="0" code="" scaleX="20.7399997711182" scaleY="-0.0299999993294477" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="191" y="63" name="inst_11D81C48" locked="0" code="" scaleX="-0.409999996423721" scaleY="4.71999979019165" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid" x="854" y="59" name="inst_E8DCD3A0" locked="0" code="" scaleX="-0.409999996423721" scaleY="4.71999979019165" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidplayer" x="844" y="-31" name="inst_378E3B88" locked="0" code="" scaleX="0.409999996423721" scaleY="5.21875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidplayer" x="186" y="-29" name="inst_C4E63A9F" locked="0" code="" scaleX="0.409999996423721" scaleY="5.21875" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
