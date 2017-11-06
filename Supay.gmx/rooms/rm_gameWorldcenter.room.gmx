@@ -15,6 +15,11 @@ global.RoomBeforePause = room;
 global.final_score_red = 0;
 global.final_score_blue = 0;
 
+global.rmFront = false;
+global.rmRight = false;
+global.rmBack = false;
+global.rmLeft = false;
+
 //player_state = ply_state.normal;
 //list for transitions not using it now
 enum transition {
