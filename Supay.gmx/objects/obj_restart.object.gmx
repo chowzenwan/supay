@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_restart</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -26,7 +26,18 @@
           <argument>
             <kind>1</kind>
             <string>src_stop_raining();
-game_restart();
+/*game_restart();
+*/
+
+with (obj_player2)
+{
+instance_destroy();
+instance_create(540,160,obj_player2)
+obj_player2.player_life = player_life +1
+}
+
+with (obj_player2)
+scr_player_life(obj_player2, obj_heartsblue);
 </string>
           </argument>
         </arguments>
@@ -50,7 +61,15 @@ game_restart();
           <argument>
             <kind>1</kind>
             <string>src_stop_raining();
-game_restart();
+//game_restart();
+with (obj_player1)
+{
+instance_destroy();
+instance_create(540,160,obj_player1)
+obj_player1.player_life = player_life +1
+}
+with (obj_player1)
+scr_player_life(obj_player1, obj_heartsred);
 </string>
           </argument>
         </arguments>
